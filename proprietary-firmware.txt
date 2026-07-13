@@ -1,0 +1,8 @@
+# Firmware - from merlin-user 12 SP1A.210812.016 V13.0.2.0.SJOMIXM release-keys
+lk.img
+md1img.img
+preloader_merlin.bin:preloader_raw.img
+scp.img
+spmfw.img
+sspm.img
+tee.img
