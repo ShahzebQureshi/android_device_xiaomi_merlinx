@@ -14,6 +14,13 @@ $(call inherit-product, device/xiaomi/merlinx/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_ENABLE_BLUR := false
+TARGET_DISABLE_MATLOG := true
+SURFACE_FLINGER_BOOST := false
+USE_DEFAULT_VULKAN := false
+WITH_GMS := true
+
 PRODUCT_NAME := lineage_merlinx
 PRODUCT_DEVICE := merlinx
 PRODUCT_MANUFACTURER := Xiaomi
